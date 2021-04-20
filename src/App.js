@@ -29,7 +29,7 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/About Us">
+          <Route path="/AboutUs">
             <AboutUs/>
           </Route>
           <Route path="/Project">
@@ -44,8 +44,8 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <PrivateRoute path="/ride/:rideType">
-            
+          <PrivateRoute path="/Admin/:userType">
+            <Admin></Admin>
           </PrivateRoute>
           <Route exact path="/contact">
             <Contact></Contact>

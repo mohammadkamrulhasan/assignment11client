@@ -15,7 +15,7 @@ const Footer = () => {
     ]
     
     const services = [
-        {name: "Plumber" , link: "/Plumber"},
+        {name: "Plumbing" , link: "/Plumber"},
         {name: "Electrical" , link: "/Electrical"},
         {name: "Painting" , link: "/Painting"}
     

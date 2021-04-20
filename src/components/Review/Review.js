@@ -10,19 +10,19 @@ const testimonialData = [
     {
         quote : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
         name : 'David Mumma',
-        from : 'California',
+        from : 'Mohammadpur',
         img : david
     },
     {
         quote : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
         name : 'Etty Fidele',
-        from : 'California',
+        from : 'Dhanmondi',
         img : etty
     },
     {
         quote : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non architecto nobis, adipisci recusandae repellat accusantium consequuntur, qui nisi deserunt blanditiis mollitia, illo! ',
         name : 'Gregory Hayes',
-        from : 'California',
+        from : 'Banani',
         img : gregory
     }
 ]
