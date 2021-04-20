@@ -25,7 +25,7 @@ const Sidebar = () => {
         <div className="sidebar d-flex flex-column justify-content-between col-md-2 py-5 px-4" style={{ height: "100vh" }}>
             <ul className="list-unstyled">
                 <li>
-                    <Link to="/dashboard" className="text-white">
+                    <Link to="/Dashboard" className="text-white">
                         <FontAwesomeIcon icon={faGripHorizontal} /> <span>Dashboard</span>
                     </Link>
                 </li>
@@ -36,27 +36,27 @@ const Sidebar = () => {
                 </li>
                 {isAdmin && <div>
                     <li>
-                        <Link to="/allPatients" className="text-white">
+                        <Link to="/Book" className="text-white">
                             <FontAwesomeIcon icon={faCalendar} /> <span>Book</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/patient" className="text-white">
-                            <FontAwesomeIcon icon={faUsers} /> <span>Customer</span>
+                        <Link to="/Customer" className="text-white">
+                            <FontAwesomeIcon icon={faUsers} />  <span>Customer</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/prescriptions" className="text-white">
+                        <Link to="/WorkOrder" className="text-white">
                             <FontAwesomeIcon icon={faFileAlt} /> <span>Work Order</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/addDoctor" className="text-white" >
+                        <Link to="/AddService" className="text-white" >
                             <FontAwesomeIcon icon={faUserPlus} /> <span>Add Service</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/doctor/setting" className="text-white" >
+                        <Link to="/setting" className="text-white" >
                             <FontAwesomeIcon icon={faCog} /> <span>Settings</span>
                         </Link>
                     </li>

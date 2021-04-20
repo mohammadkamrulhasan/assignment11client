@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory, useParams } from 'react-router';
+import AddService from '../Contact/AddService/AddService';
 import Dashboard from '../Dashboard/Dashboard';
 
 const Admin = () => {
@@ -12,6 +13,7 @@ const Admin = () => {
     return (
         <div>
             <Dashboard></Dashboard>
+            {/* <AddService></AddService> */}
         </div>
     );
 };
