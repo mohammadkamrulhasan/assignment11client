@@ -23,7 +23,7 @@ const AddService = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5055/addService', {
+        fetch('https://shrouded-eyrie-57310.herokuapp.com/addService', {
             method: 'POST',
             body: formData
         })
